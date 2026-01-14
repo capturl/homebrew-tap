@@ -3,7 +3,7 @@ cask "capturl-mcp" do
   name "capturl-mcp"
   desc "Capturl MCP Server"
   homepage "https://github.com/capturl/capturl-mcp"
-  version "0.0.8"
+  version "0.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "capturl-mcp" do
   on_macos do
     on_intel do
       url "https://github.com/capturl/capturl-mcp/releases/download/v#{version}/capturl-mcp_#{version}_darwin_amd64.tar.gz"
-      sha256 "b00bd5f9c859d0899f93c4c16513b4a4e830f21e694d69ff80d682bb4a78e837"
+      sha256 "7c4dd6120b1fa76b3dade7b41432932b93056707192e057010e668e4835ad070"
     end
     on_arm do
       url "https://github.com/capturl/capturl-mcp/releases/download/v#{version}/capturl-mcp_#{version}_darwin_arm64.tar.gz"
-      sha256 "24995b5fd6c886e653655df93b3548dbcb93065332fa5332a9528a98fb2e6118"
+      sha256 "80a112ba76394117b887f9241fc2286b1f9e0c07badd5f1f4062d4fda0d1ad1a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/capturl/capturl-mcp/releases/download/v#{version}/capturl-mcp_#{version}_linux_amd64.tar.gz"
-      sha256 "922076fa34e5c785902f97f23dd7d040049e6f6383115573d2322d6f90ca1294"
+      sha256 "fde995868f56cfb74860eca397c744a61abf71249059681e4cc0afaa0cdb554c"
     end
     on_arm do
       url "https://github.com/capturl/capturl-mcp/releases/download/v#{version}/capturl-mcp_#{version}_linux_arm64.tar.gz"
-      sha256 "2c7d9d64bb31269223b4d58ce8978b93e5f66ce084d198784055b0d7bc095980"
+      sha256 "05d9cbe5016a56c2f136f16beaba5532e2725a9cdc540d60bcb5bbefda298988"
     end
   end
 
